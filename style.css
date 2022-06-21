@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+} 
+body{
+    background:#003049;
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    padding:0;
+    color:#fff;
+}
+html{
+    font-size:62.5%;
+    scroll-behavior:smooth;
+}
+a{
+    text-decoration:none;
+}
+.container{
+    max-width:140rem;
+    margin:auto;
+}
+.main_content{
+    display: flex;
+}
+.frist_content{
+    width:50%;
+    padding:5rem;
+    margin-top:12rem;
+}
+.project_name h1{
+    font-size:4.4rem;
+    text-align: center;
+    margin-bottom:5rem;
+}
+.pro_img{
+    margin:auto;
+    text-align: center;
+    width:30rem;
+    height: 30rem;
+    border-radius:50%;
+    background:#fff;
+    overflow: hidden;
+}
+.pro_img img{
+    width:25rem;
+}
+.pro_content{
+    text-align: center;
+    margin-top:3rem;
+}
+.pro_content h2{
+    font-size:3rem;
+}
+.pro_content p{
+    font-size:2rem;
+    margin-top:1rem;
+}
+.pro_content button{
+    border:none;
+    outline:none;
+    margin-top:2rem;
+    font-size:1.6rem;
+    border-radius: 2rem;
+}
+.pro_content button a:hover{
+    background:#d62828;
+    color:rgb(255, 255, 255);
+}
+.pro_content button a{
+    color:rgb(0, 0, 0);
+    display: block;
+    background:#ffff76;
+    padding:1rem;
+    border-radius:2rem;
+}
+.second_content{
+    width:50%;
+    padding:5rem;
+    margin-top:12rem;
+}
+.time{
+    background:#0101014e;
+    width:40%rem;
+    height: 60rem;
+    border-radius: 4rem;
+    box-shadow:rgb(242, 255, 0) 0rem 0rem 8rem;
+    padding-top: 20rem;
+    text-align: center;
+    margin:auto;
+}
+.time .hour, .minit, .sec{
+    width:9.8rem;
+    height: 10.2rem;
+}
+.hour, .minit, .sec{
+    background: #d62828;
+    display: inline-block;
+    font-size: 6rem;
+    padding-top: .8rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 1rem;
+}
+.minit{
+    background:#f77f00;
+    color:#ffffff;
+}
+.sec{
+    background:#fcbf;
+    color:black;
+}
+.colon{
+    display:inline-block;
+    font-size:5rem;
+    padding:0 1.2rem;
+    border-radius: 1rem;
+}
+.mon_day{
+    background:#013a59a8;
+    padding:1rem;
+    margin-top:2rem !important;
+    font-size:2rem;
+    border-radius:1rem;
+    text-align: center;
+    width:64%;
+    margin:auto;
+}
+.mon_day span{
+    display: inline-block;
+}
+.date{
+    margin-left:3rem;
+    margin-right:5rem;
+}
