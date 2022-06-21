@@ -1,0 +1,103 @@
+@media only screen and (max-width:1200px){
+    .pro_img {
+        width: 25rem;
+        height: 25rem;
+      }
+      .time .hour, .minit, .sec {
+        width: 8.8rem;
+        height: 9.2rem;
+      }
+      .hour, .minit, .sec {
+        font-size: 5rem;
+      }
+      .mon_day {
+        width: 85%;
+      }
+}
+@media only screen and (max-width:992px){
+    .project_name h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+      }
+      .time .hour, .minit, .sec {
+        width: 6.8rem;
+        height: 6.2rem;
+      }
+      .hour, .minit, .sec {
+        font-size: 3rem;
+      }
+      .colon {
+        padding: 0 .5rem;
+      }
+      .mon_day {
+        width: 90%;
+      }
+      .mon_day {
+        font-size: 1.5rem;
+      }
+}
+@media only screen and (max-width:768px){
+    .main_content {
+        display: block;
+      }
+      .frist_content {
+        width: 100%;
+        margin-top:4rem;
+      }
+      .project_name h1 {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+      }
+      .pro_img {
+        width: 30rem;
+        height: 30rem;
+      }
+      .second_content {
+        width: 100%;
+        margin-top: 10rem;
+      }
+      .time .hour, .minit, .sec {
+        width: 9.8rem;
+        height: 10.2rem;
+      }
+      .hour, .minit, .sec {
+        font-size: 6rem;
+      }
+      .pro_content {
+        margin-top: 5rem;
+      }
+      .mon_day {
+        width: 75%;
+        font-size: 1.8rem;
+      }
+}
+@media only screen and (max-width:576px){
+    .project_name h1 {
+        font-size: 3.5rem;
+      }
+      .pro_img {
+        width: 25rem;
+        height: 25rem;
+      }
+      .pro_content h2 {
+        font-size: 2rem;
+      }
+      .time{
+        height: 50rem;
+      }
+      .time .hour, .minit, .sec {
+        width: 5.8rem;
+        height: 6.2rem;
+      }
+      .hour, .minit, .sec {
+        font-size: 3rem;
+      }
+      .date {
+        margin-left: 1rem;
+        margin-right: 2rem;
+      }
+      .mon_day {
+        width: 90%;
+        font-size:1.5rem;
+      }
+}
